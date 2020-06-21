@@ -1,34 +1,33 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>GZスキルアップの部屋</title>
+<HTML>
+<HEAD><TITLE>GZスキルアップの部屋</TITLE>
+</HEAD>
+<SCRIPT Language="JavaScript">
+function enter(pass)
+{
+location.href="./"+pass+"index.html";
+}
+</SCRIPT>
+<BODY bgcolor="#ffffff">
+<div align="center">
+<h1>パスワードを入力してください</h1>
+<h3>ここから先はメンバー専用です<br>パスワードを入力してください</h3>
+</div>
+<FORM>
+<div align="center">
+<INPUT type="password" name="Pass">
+<INPUT type="button" value="Enter"
+onClick="enter(this.form.Pass.value)">
+</div>
+</FORM>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<hr width="80%">
+<div align="center">
+<a href="./index.html">
+<font style="font-size:12px;color="#000055">
+memberではないので退室する
+</font>
+</a>
+</div>
 
-<link rel="stylesheet" href="stylesheet.css">
-<link rel="stylesheet" href="responsive.css">
-<link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
-
-
-
-  </head>
-  <body>
-
-    <header>
-      <div class="container">
-        <div class="header-logo">
-          <img src="logo.png" alt="" class="logo">
-        </div>
-        <div class="header-list">
-            <a href="moviepage/moviepage.html" class="list-a1">ロープレ動画</a>
-            <a href="file:///C:/Users/Lenovo/Desktop/html_skillupHP/manualpage/manualepage.html" class="list-a2">マニュアル</a>
-            <a href="file:///C:/Users/Lenovo/Desktop/html_skillupHP/salestoolspage/salestoolspage.html" class="list-a3">営業ツール</a>
-        </div>
-
-      </div>
-    </header>
-
-
-  </body>
-</html>
+</BODY>
+</HTML>
