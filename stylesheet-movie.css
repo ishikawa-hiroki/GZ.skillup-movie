@@ -43,18 +43,3 @@ header{
   text-shadow: 1px 2px 3px #808080;
 }
 
-@media screen and (max-width:1000px) {
-  .top-wrapper{
-  padding: 130px 0 130px 0;
-  }
-  .top-wrapper h1 {
-    font-size: 25px;
-  }
-}
-
-
-@media screen and (max-width:670px) {
-  .top-wrapper h1 {
-    font-size: 17px;
-  }
-}
