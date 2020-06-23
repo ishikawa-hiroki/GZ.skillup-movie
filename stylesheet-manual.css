@@ -47,6 +47,14 @@ header{
   letter-spacing: 5px;
   text-shadow: 1px 2px 3px #808080;
 }
+.top-wrapper p {
+  color:white;
+  opacity: 0.8;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-shadow: 1px 2px 3px #808080;
+  margin-top: 30px;
+}
 
 .main-wrapper {
   padding: 40px 0;
@@ -105,7 +113,10 @@ footer{
   padding: 130px 0 100px 0;
   }
   .top-wrapper h1 {
-    font-size: 25px;
+    font-size: 28px;
+  }
+  .top-wrapper p {
+    font-size: 16px;
   }
   .content p {
     font-size: 14px;
@@ -118,7 +129,10 @@ footer{
 
 @media screen and (max-width:670px) {
   .top-wrapper h1 {
-    font-size: 14px;
+    font-size: 16px;
+  }
+  .top-wrapper p {
+    font-size: 12px;
   }
   .content {
     width: 100%;
@@ -128,4 +142,5 @@ footer{
   }
   .footer-logo{
     float: none;
+  }
 }
