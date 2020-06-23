@@ -99,6 +99,10 @@ footer{
   }
   .top-wrapper p {
     font-size: 18px;
+  }
+   .footer-address {
+    margin-right: 30px;
+  }
 
 }
 
@@ -123,5 +127,13 @@ footer{
   }
   .top-wrapper p {
     font-size: 10px;
+  }
+  
+footer{
+    text-align: center;
+  }
+  .footer-logo{
+    float: none;
+  }
 
 }
