@@ -80,9 +80,11 @@ header{
 .far {
   font-size: 100px;
 }
+.p1 {
+  margin-top: 20px;
+}
 .content p {
   font-size: 20px;
-  margin-top: 5px;
   margin: : 0 50px;
   color: black;
 }
