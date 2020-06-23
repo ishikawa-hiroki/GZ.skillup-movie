@@ -38,9 +38,17 @@ header{
 .top-wrapper h1 {
   color:white;
   opacity: 0.8;
-  font-size: 40px;
+  font-size: 60px;
   letter-spacing: 5px;
   text-shadow: 1px 2px 3px #808080;
+}
+.top-wrapper p {
+  color:white;
+  opacity: 0.8;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-shadow: 1px 2px 3px #808080;
+  margin-top: 30px;
 }
 
 @media screen and (max-width:1000px) {
@@ -48,13 +56,19 @@ header{
   padding: 130px 0 130px 0;
   }
   .top-wrapper h1 {
-    font-size: 25px;
+    font-size: 35px;
   }
+  .top-wrapper p {
+    font-size: 18px;
+
 }
 
 
 @media screen and (max-width:670px) {
   .top-wrapper h1 {
-    font-size: 11px;
+    font-size: 18px;
   }
+  .top-wrapper p {
+    font-size: 10px;
+
 }
