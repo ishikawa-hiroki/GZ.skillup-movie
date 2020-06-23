@@ -68,6 +68,25 @@ header{
   margin-top: 30px;
 }
 
+footer{
+  margin-top: 10px;
+  padding-top: 5px;
+  border-top: 1px solid #eee;
+}
+.footer-logo{
+  float: left;
+}
+.footer-logo img{
+  width:100px;
+  margin-left: 10px;
+}
+.footer-address {
+  float: right;
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width:1000px) {
   .header-list a{
     font-size: 11px;
