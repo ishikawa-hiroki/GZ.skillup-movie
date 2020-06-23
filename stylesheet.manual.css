@@ -31,6 +31,23 @@ header{
   width: 180px;
   margin-top: 5px;
 }
+.header-list{
+  float: right;
+  height: 65px;
+}
+
+.header-list a{
+  font-weight: bold;
+  line-height: 65px;
+  color:white;
+  padding: 0 10px;
+  margin: 0 5px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.header-list a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
 
 .top-wrapper {
   padding: 330px 0 250px 0;
@@ -109,6 +126,9 @@ footer{
 
 
 @media screen and (max-width:1000px) {
+  .header-list a{
+    font-size: 11px;
+  }
   .top-wrapper {
   padding: 130px 0 100px 0;
   }
@@ -128,6 +148,20 @@ footer{
 
 
 @media screen and (max-width:670px) {
+  .header-list a{
+    font-size: 4px;
+    height:40px;
+    line-height: 40px;
+  }
+  .header-list{
+    height:40px;
+  }
+  .logo {
+    width:60px;
+  }
+  header {
+    height:40px;
+  }
   .top-wrapper h1 {
     font-size: 16px;
   }
