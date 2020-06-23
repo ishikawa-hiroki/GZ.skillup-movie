@@ -1,0 +1,187 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width:100%;
+  margin:0 auto;
+}
+
+header{
+  height:65px;
+  width: 100%;
+  position: fixed;
+  top:0px;
+  z-index: 10;
+  background-color: rgba( 34, 110, 52, 0.7);
+}
+.header-logo{
+  float:left;
+  margin-left: 10px;
+}
+.logo{
+  width: 180px;
+  margin-top: 5px;
+}
+.header-list{
+  float: right;
+  height: 65px;
+}
+
+.header-list a{
+  font-weight: bold;
+  line-height: 65px;
+  color:white;
+  padding: 0 10px;
+  margin: 0 5px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.header-list a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+.top-wrapper {
+  padding: 200px 0 100px 0;
+  background-image: url(tool.back2.jpg);
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.4);
+  background-blend-mode: lighten;
+  text-align: center;
+}
+.top-wrapper h1 {
+  color:white;
+  opacity: 0.8;
+  font-size: 50px;
+  letter-spacing: 5px;
+  text-shadow: 1px 2px 3px #808080;
+}
+.top-wrapper p {
+  color:white;
+  opacity: 0.8;
+  font-size: 25px;
+  letter-spacing: 5px;
+  text-shadow: 1px 2px 3px #808080;
+  margin-top: 30px;
+}
+
+.main-wrapper {
+  padding: 40px 0;
+  background-color: #f7f7f7;
+}
+
+
+.fa {
+  width: 150px;
+  font-size: 100px;
+}
+
+.content p {
+  font-size: 20px;
+  margin-top: 5px;
+  margin: : 0 50px;
+  color: black;
+}
+.content a {
+  color:red;
+}
+.file {
+  opacity: 0.8;
+}
+.file:hover {
+  opacity: 1;
+}
+.contents {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.content {
+  margin:20px;
+  width: 25%;
+}
+
+footer{
+  margin-top: 10px;
+  padding-top: 5px;
+  border-top: 1px solid #eee;
+}
+.footer-logo{
+  float: left;
+}
+.footer-logo img{
+  width:100px;
+  margin-left: 10px;
+}
+.footer-address {
+  float: right;
+  margin-top: 20px;
+  margin-right: 100px;
+  margin-bottom: 30px;
+}
+
+@media screen and (max-width:1000px) {
+  .header-list a{
+    font-size: 11px;
+  }
+ .top-wrapper h1 {
+   font-size: 22px;
+ }
+ .top-wrapper p {
+   font-size: 18px;
+ }
+ .content p {
+   font-size: 16px;
+ }
+ .fa {
+   width:100px;
+ }
+ .footer-address {
+   margin-right: 30px;
+ }
+}
+
+
+@media screen and (max-width:670px) {
+  .header-list a{
+    font-size: 4px;
+    height:40px;
+    line-height: 40px;
+  }
+  .header-list{
+    height:40px;
+  }
+  .logo {
+    width:60px;
+  }
+  header {
+    height:40px;
+  }
+  .top-wrapper h1 {
+    font-size: 14px;
+  }
+  .top-wrapper p {
+    font-size: 12px;
+  }
+  .br1::before {
+    content: "\A" ;
+	  white-space: pre ;
+  }
+  .top-wrapper {
+    padding: 100px 0;
+  }
+  footer{
+    text-align: center;
+  }
+  .footer-logo{
+    float: none;
+  }
+  .content {
+    width: 100%;
+  }
+
+}
